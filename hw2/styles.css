@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  height: calc(100% - 40px);
+  position: fixed;
+  top: 0px;
+  overflow: auto;
+  z-index: 1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #AF6AF1;
+  color: white;
+}
+
+div.gallery {
+  margin: 15px;
+  box-sizing: border-box;
+  //border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+  height: 150px;
+  position: relative;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+div.gallery:hover {
+  /*border: 1px solid #777;*/
+  /*width: 275px;
+  height: 153px;*/
+  transform: scale(1.1, 1.1);
+  margin: 15px;
+  box-shadow: 0px 0px 30px rgba(214, 201, 40, 1);
+
+}
+
+div.gallery.sel {
+  border: 3px solid #ccc;
+}
+
+div.gallery img {
+  width: 100%;
+  display: block;
+  //border: 5px solid #ccc;
+}
+
+div.preview {
+  margin-left: 210px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 400px;
+  overflow: hidden;
+}
+
+div.preview img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  display: block;
+}
+
+.button{
+  text-align: center;
+  width: 80px;
+  padding: 5px 0px;
+  vertical-align: middle;
+}
+
+.buttons{
+  position: fixed;
+  bottom: 0px;
+  //left: 5px;
+  text-align: center;
+  display: inline-block;
+  z-index: 2;
+  height: 40px;
+  background-color: #f1f1f1;
+}
+
+li img{
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+div.info{
+  height: 50px;
+  text-align: center;
+  margin-left: 200px;
+}

@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/pengyuqi/Desktop/nand2tetris/tools:/Users/pengyuqi/Desktop/計概/nand2tetris/tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/pengyuqi/Desktop/web_programming/wp1101/hw7/package.json: Unexpected string in JSON at position 84
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "hw7",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+  "scripts": {
+      "start": "cd frontend && yarn start",
+      "server": "cd backend && yarn server"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

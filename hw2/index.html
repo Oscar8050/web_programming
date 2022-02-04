@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Photo Album</title>
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="styles.css"
+  />
+</head>
+<body>
+
+  <ul>
+    <li><a href="#" data-index="-1">Home</a></li>
+    <li><a href="#" class="active" data-index="0"><img src="https://images.unsplash.com/photo-1633712134056-ffb2ea169ace?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="">Album1<br><button type="button" name="button" class="add">＋</button><button type="button" name="button" class="del">—</button></a></li>
+    <li><a href="#" data-index="1"><img src="">Album2<br><button type="button" name="button" class="add">＋</button><button type="button" name="button" class="del">—</button></a></li>
+    <li><a href="#" data-index="2">Album3</a></li>
+    <li><a href="#" data-index="3">Album4</a></li>
+    <li><a href="#" data-index="4">Album5</a></li>
+
+  </ul>
+
+
+  <div class="buttons" style="width:200px;">
+    <!--<button type="button" name="button" class="button" id="aP">addPicture</button>
+    <button type="button" name="button" class="button" id="dP">deletePicture</button>-->
+    <button type="button" name="button" class="button" id="aA">addAlbum</button>
+    <button type="button" name="button" class="button" id="dA">deleteAlbum</button>
+  </div>
+
+
+
+  <div class="preview">
+    <img src="https://images.unsplash.com/photo-1633712134056-ffb2ea169ace?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="">
+
+  </div>
+
+  <div class="info">
+    照片數123jaskdlfkjk
+  </div>
+
+  <div class = "galleries" style="margin-left:200px;padding:1px 16px;height:200px">
+
+
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
